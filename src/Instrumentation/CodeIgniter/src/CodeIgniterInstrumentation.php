@@ -160,7 +160,6 @@ class CodeIgniterInstrumentation
         }
 
         return substr($lastSegment, 1) . '.' . $controllerMethod;
-        
     }
 
     protected static function getResponseLength(ResponseInterface $response): int
@@ -175,6 +174,5 @@ class CodeIgniterInstrumentation
         }
 
         return 0;
-            
     }
 }
